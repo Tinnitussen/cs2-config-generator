@@ -1,5 +1,5 @@
-import CS2ConfigGenerator from './components/CS2ConfigGenerator'
-import './App.css'
+import CS2ConfigGenerator from '@/components/CS2ConfigGenerator';
+import '@/App.css';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <CS2ConfigGenerator />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
